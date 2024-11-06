@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/img/kiskkh-removebg-preview.png" alt="">
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item nav-home">
+                    <i class="fa-solid fa-house"></i>
+                    <a class="nav-link active" aria-current="page" href="/html/home.html" id="link">Home</a>
+                </li>
+                <li class="nav-item nav-home">
+                    <i class="fa-regular fa-message"></i>
+                    <a class="nav-link active" aria-current="page" href="/html/faq.html" id="link">FAQ</a>
+                </li>  
+                
+                <li class="nav-item nav-home">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button class="btn-search border-0 ">Search</button>
+                    <input type="text" class="search-input" placeholder="Search here...">
+                </li>
+                <div class="search-input" style="display: none; z-index: 10;">
+                   
+                </div>
+                
+                <li class="nav-item nav-home">
+                    <i class="fa-regular fa-user"></i>
+                    <a class="nav-link active" href="/html/login.html" id="link">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Updated carousel with fade effect -->
+    <div id="carouselExampleDark" class="carousel carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="/img/carou1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/carou2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000" id="image3">
+                <img src="/img/carou3new.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <br>
+    
+
+<div data-aos="fade-right"   data-aos-duration="2000">
+
+    
+    <div class="darkmode" id="darkmode">
+        <span class="mat-button-wrapper ms-5 text-danger">Continue watching</span>
+        <br>
+        
+        <div class="m-4   text-danger" style="text-align: center;">Sign in now to save your watch history.</div>
+        <span class="mat-button-wrapper ms-4 lastest  text-danger">&nbsp;&nbsp;&nbsp;Lastest Update <b>></b></span>
+        <br>
+        <br>
+      
+        <div class="container-fluid mt-4">
+            <div class="row mt-4">
+                <!-- Large Column on Large Screens -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <a href="https://kisskh.co/Drama/Love-Next-Door?id=9301"> <img src="/img/picc1.jpg" class="card-img-top" alt="Card Image Large"></a>
+                       
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">Love the next door</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Columns -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <a href="https://kisskh.co/Drama/True-Beauty?id=975"> <img src="/img/pic3.webp" class="card-img-top" alt="Card Image 1"></a>
+                      
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text  me-1">True beauty</p>
+                            <p class="card-text ms-4">Ep 16</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <a href="https://kisskh.co/Drama/Lovely-Runner?id=8792"><img src="/img/pic5.webp" class="card-img-top" alt="Card Image 2"></a>
+                        
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama1</p>
+                            <p class="card-text ms-4">Ep 16</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <a href="https://kisskh.co/Drama/A-Business-Proposal?id=4608">  <img src="/img/pic6.jpg" class="card-img-top" alt="Card Image 2"></a>
+                      
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">All of us are death</p>
+                            <p class="card-text ms-4">Ep 12</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <a href="https://kisskh.co/Drama/Queen-of-Tears?id=8714"><img src="/img/queen.jpg" alt="Card Image2" class="card-img-top"></a>
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">Queen of Tears</p>
+                            <p class="card-text ms-4">Ep 18</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <a href="https://kisskh.co/Drama/Falling-Into-Your-Smile?id=773">  <img src="/img/falling.webp" class="card-img-top" alt="Card Image 2"></a>
+                      
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1 ">Smilling</p>
+                            <p class="card-text ms-4">Ep 31</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more columns as needed -->
+            </div>
+        
+            <div class="row mt-4">
+                <!-- Large Column on Large Screens -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic9.jpg" class="card-img-top" alt="Card Image Large">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">T-WaterMelon</p>
+                            <p class="card-text ms-4">Ep 16</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Columns -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic11.avif" class="card-img-top" alt="Card Image 1">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text  me-1">K-drama1</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic12.avif" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama2</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic13.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama3</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic14.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama4</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic15.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1 ">K-drama5</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more columns as needed -->
+            </div>
+            <div class="row mt-4">
+                <!-- Large Column on Large Screens -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic16.jpg" class="card-img-top" alt="Card Image Large">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama6</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Columns -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic17.jpg" class="card-img-top" alt="Card Image 1">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text  me-1">K-drama7</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic18.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama8</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic19.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama9</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic30.avif" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama10</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic31.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1 ">K-drama11</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="row mt-4">
+                <!-- Large Column on Large Screens -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic32.jpg" class="card-img-top" alt="Card Image Large">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama12</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Columns -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic34.webp" class="card-img-top" alt="Card Image 1">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text  me-1">K-drama13</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic35.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama14</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic37.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama15</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic38.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama16</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic39.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1 ">K-drama17</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more columns as needed -->
+            </div>
+            <div class="row mt-4">
+                <!-- Large Column on Large Screens -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic40.avif" class="card-img-top" alt="Card Image Large">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama18</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Columns -->
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic41.webp" class="card-img-top" alt="Card Image 1">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text  me-1">K-drama19</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic42.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama20</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic43.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama21</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic44.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1">K-drama22</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 box-shadow">
+                    <div class="card">
+                        <img src="/img/pic45.webp" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body d-flex justify-content-between">
+                            <p class="card-text me-1 ">K-drama23</p>
+                            <p class="card-text ms-4">Ep 6</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more columns as needed -->
+            </div>
+        
+        </div>
+</div>
+
+
+ 
+    <br>
+    <br>
+    <center class="text-danger">Ready to watch? Enter your email to create or restart your membership.</center>
+    <br>
+ <form action="" class="">
+    <div class=" d-flex justify-content-center">
+        
+        <input type="email" class="form-control w-25 border-dark " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+        <button type="button" class="btn btn-primary text-danger bg-dark "><a href="/html/login.html" style="text-decoration: none; color: red;">Get Started</a></button>
+
+      </div>
+    
+ </form>
+      
+
+    </center>
+</div>
+
+<div data-aos="fade-down"  data-aos-duration="2000">
+
+    <div class="footer-link d-flex justify-content-between ">
+        <span class=" p-0 ">
+            <br>
+            <br>
+        <p><a class="link-opacity-100 text-decoration-none ms-5 text-light" href="#">Home</a></p>
+        <p><a class="link-opacity-100 text-decoration-none ms-5 text-light" href="#">FAQ</a></p>
+       
+        <p><a class="link-opacity-100 text-decoration-none ms-5 text-light" href="#">Login</a></p>
+        <p><a class="link-opacity-100 text-decoration-none ms-5 text-light" href="#">Explore</a></p>
+        <p><a class="link-opacity-100 text-decoration-none ms-5 text-light" href="#">Search</a></p>
+        <button type="button" class="btn btn-dark ms- btn-dark" onclick="myFunction1()" ondblclick="resetStyle()">Dark</button>
+
+    </span>
+   
+
+    <span class="  payment3 mt-5">
+      
+        <img src="/img/payment2.webp" alt="" width="80%">
+    </span>
+    </div>
+</div>
+</body>
+
+      
+   
+
+<script>
+    // window.alert("Hi lok kru My name is Kim chan tharo hav fred");
+    // Bye Lok kru
+ 
+var active = 1;
+
+// jQuery code to toggle search input on button click
+$(document).on("click", ".btn-search", function () {
+    $(".search-input").slideToggle(800); // Slide the search input up and down
+    if(active == 1){
+      
+  
+        active = 0;
+    } else {
+        // Change button text back to 'Show'
+        active = 1;
+    }
+});
+  //search product 
+  var allProduct = document.querySelectorAll(".box-shadow");
+    // console.log(allProduct)
+    $(document).on("input",'.search-input', function () {
+        let searchValue = $(this).val();
+
+        for(let i=0;i<allProduct.length;i++){
+            //product title
+            let title = allProduct[i].querySelector(".card-text").textContent.toLowerCase().replace(/\s+/g, '');
+
+            if(title.includes(searchValue.toLowerCase().replace(/\s+/g, '') )){
+                allProduct[i].style.display = "inline";
+            }else{
+                allProduct[i].style.display = "none";
+            }
+        }
+        
+    });
+</script>
+
+<script src="/js/home.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>

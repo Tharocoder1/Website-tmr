@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    /* background-color: #343434; */
+      height: 100vh;
+        background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/dae1f45f-c2c5-4a62-8d58-6e1b0c6b2d8e/24eab094-0153-4ac0-a0ce-f9207e578b78/KH-en-20240827-TRIFECTA-perspective_WEB_18a6e8a6-c592-49d4-8f03-b9e523044811_large.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+ 
+    
+}
+
+.btn-primary{
+  border-radius:3px ;
+   width: 180px;
+   height: 50px;
+   position: relative;
+ right: -7px;
+}
+.col-xl-2 ,.col-lg-4, .col-md-4, .col-sm-6{
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.col-xl-2 ,.col-lg-4, .col-md-4, .col-sm-6{
+ transition: all 1s;
+}
+.col-xl-2:hover{
+transform: scale(1.1);
+}
+
+
+.navbar-expand-xl {
+    
+    box-shadow: 1px 3px 5px #ccc;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.nav-item a {
+    margin-right: 20px;
+}
+.content {
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 650px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a lifting effect */
+}
+#left {
+    width: 50%;
+    height: 600px;
+    /* background-color: aquamarine; */
+    text-align: center;
+    box-shadow: 4px 2px 4px #ccc;
+}
+#right {
+    width: 50%;
+    height: 600px;
+    box-shadow: 1px 5px #ccc;
+}
+#left h2 {
+    margin-top: 30%;
+    font-family: Axlerian;
+}
+#left p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-outline-secondary {
+    width: 180px;
+    margin-left: 35%;
+}
+.navbar-brand img {
+    /* box-shadow: 1px 3px 2px #ccc; */
+    border-radius: 10px;
+    position: fixed;
+    top: -15px;
+    width: 100px;
+}
+.nav-home {
+    display: flex;
+    width: auto;
+    /* padding: 20px; */
+    color: rgb(244, 15, 15);
+    align-items: center;
+    border-radius: 5px;
+}
+#carouselExampleDark {
+    z-index: -1;
+}
+.nav-home:hover {
+    background-color: rgb(248, 243, 243);
+    font-weight: bold;
+    color: rgb(170, 35, 35);
+}
+
+.navitem {
+    color: rgb(240, 18, 18);
+}
+.fa-house, .fa-message, .fa-comment, .fa-palette, .fa-circle-play, .fa-magnifying-glass, .fa-user {
+    margin-top: 1px;
+    margin-left: 27px;
+}
+.navbar-expand-xl {
+    width: 100%;
+    background-color:#ccc;
+  
+}
+.nav-item {
+    margin-right: 20px;
+}
+#link {
+    color:rgb(19, 19, 19);
+    font-weight: bold;
+}
+#link:hover {
+    color: rgb(25, 21, 21);
+}
+/* CSS for fade effect in the carousel */
+.carousel-item {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+.mat-button-wrapper {
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+   left: -30px;
+}
+
+@media (max-width: 768px) {
+    .col-sm-6 box-shadow{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1200px) {
+    .col-md-4, .col-lg-4 {
+        margin-top: 30px;
+    }
+  
+}
+@media (max-width: 1999px) {
+    .collapse{
+        background-color: #ccc;
+      
+    }
+    }
+
+    @media (max-width: 768px) {
+        .mat-button-wrapper{
+            display: none;
+        }
+        .lastest{
+            width: 100%;
+            background-color: #343434;
+            border-radius: 3px;
+            display: flex;
+           
+            position: relative;
+            top: 90px;
+            right: 34px;
+            color: rgb(9, 8, 8);
+            
+        }
+       
+    }
+.nav-item i {
+    color:rgb(14, 14, 14);
+}
+.nav-item i:hover {
+    color:rgb(6, 5, 5);
+}
+.footer-link{
+   
+    background-color: black;
+}
+.linking{
+    color: white;
+}
+.collapse {
+    position: relative;
+    top: 10px;
+    /* background-color: #fbf7f7; */
+}
+
+.btn-dark{
+    margin-left: 40px;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+ 
+  
+}
+form{
+    position: relative;
+    top: -21px;
+   
+    background: rgba(5, 5, 5, 0.499); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    backdrop-filter: blur(4px); /* Apply the blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    color: #fff; /* Text color */
+    width: 30%;
+    height: 80%;
+
+    
+}
+
+.form-login div{
+   position: relative;
+   top: 20%;
+   left: 40px;
+  
+}
+.form-login label{
+    position: relative;
+    top: 20%;
+   
+ }
+ #submit{
+    color: red;
+    background-color: black;
+    width: 130px;
+   
+ }
+ #submit:hover{
+    color: red;
+    background-color: rgb(238, 235, 235);
+    width: 130px;
+   
+ }
+ .form-login button{
+    position: relative;
+    top: 20%;
+    left: 40px;
+ }
+ .form-login input{
+    left: 40px;
+    border: 2px solid #343434;
+  
+ }
+ .footer-link{
+    position: relative;
+    top: -49px;
+ }
+@media (max-width:1150px){
+  #submit{
+    width: 100px;
+  }  
+  form{
+    width: 50%;
+    height: 70%;
+   
+    
+  }
+
+}
+@media (max-width:612px){
+    #submit{
+      width: 100px;
+    }  
+    form{
+      width: 90%;
+      height: 70%;
+      position: relative;
+      
+    }
+   
+  }
+
